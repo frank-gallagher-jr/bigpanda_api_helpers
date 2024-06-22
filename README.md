@@ -57,7 +57,11 @@ optional arguments:
                         Array key to search for value (e.g., 'affectedCIs')
   --api_key_env API_KEY_ENV
                         Environment variable name for the API key (default: 'BIGPANDA_API_KEY')
+```
 
+## Usage: `bp_postChanges.py`
+
+```plaintext
 
 usage: post_script.py [-h] [-p PREFIX] [-u URL] [--app_key_env APP_KEY_ENV]
                       [--api_key_env API_KEY_ENV]
@@ -77,3 +81,4 @@ optional arguments:
                         Environment variable name for the app key (default: 'BP_APP_KEY')
   --api_key_env API_KEY_ENV
                         Environment variable name for the API key (default: 'BIGPANDA_API_KEY')
+```
