@@ -18,14 +18,17 @@ Be sure to set your ENVIRONMENT VARIABLES BEFORE RUNNING.
 
 # USAGE bp_getChanges.py
 
-usage: get_script.py [-h] [-e END_TIME] [-tz TIME_ZONE] [-o OUTPUT_FILE]
+usage: 
+python3 get_script.py [-h] [-e END_TIME] [-tz TIME_ZONE] [-o OUTPUT_FILE]
                      [-s SOURCE_SYSTEM] [-q SEARCH_QUERY] [-l LIMIT]
                      [--sort {start_time_frame,end_time_frame}] [--key KEY]
                      [--value VALUE] [--array_key ARRAY_KEY]
                      [--api_key_env API_KEY_ENV]
                      start_time
+                     
 
 Fetch and filter change records.
+
 
 positional arguments:
   start_time            Start time in format YYYY-MM-DDTHH:MM:SS
